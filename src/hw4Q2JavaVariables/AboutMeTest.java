@@ -2,7 +2,8 @@ package hw4Q2JavaVariables;
 
 public class AboutMeTest {
 	public static void main(String[] args) {
-//aboutMe class is instantiated. always inside main method, not in other method.
+		// aboutMe class is instantiated. always inside main method, not in other
+		// method.
 		AboutMe aboutMe = new AboutMe();
 		// initialized all variable here.
 		aboutMe.name = "ruhul";
@@ -18,7 +19,6 @@ public class AboutMeTest {
 		aboutMe.aboutMe();
 		System.out.println("\n***************\n");
 		// initialized all variable here.
-
 		AboutMe aboutMe1 = new AboutMe();
 		aboutMe1.name = "Alex";
 		aboutMe1.age = 39;
@@ -26,7 +26,5 @@ public class AboutMeTest {
 		aboutMe1.my_yearly_rent = 20000;
 		aboutMe1.us_citizen = false;
 		aboutMe1.my_bank_balance = 70000;
-
 	}
-
 }
