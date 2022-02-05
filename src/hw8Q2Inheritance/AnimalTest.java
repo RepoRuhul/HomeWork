@@ -1,5 +1,7 @@
 package hw8Q2Inheritance;
 
+import java.net.CacheRequest;
+
 public class AnimalTest {
 
 	public static void main(String[] args) {
