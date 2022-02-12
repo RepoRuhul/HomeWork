@@ -1,4 +1,4 @@
-package hw9Q3Abstraction;
+package hw10Q3Abstraction;
 
 // Extends key words are used to inheritance the interface class.
 // Interface can inherit other interface.

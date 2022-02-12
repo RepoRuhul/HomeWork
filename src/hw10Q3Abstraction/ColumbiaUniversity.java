@@ -1,4 +1,4 @@
-package hw9Q3Abstraction;
+package hw10Q3Abstraction;
 
 //Extends key words are used to inheritance the regular class.
 //Regular class can inherit other regular class and abstract class.
