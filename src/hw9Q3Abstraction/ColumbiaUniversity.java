@@ -1,6 +1,6 @@
 package hw9Q3Abstraction;
 
-//Extends key words are used to inheritance the regular class.
+//Extends(one) key words are used to inheritance the regular class.
 //Regular class can inherit other regular class and abstract class.
 //Regular class cann't inherit interface class.
 //Regular class can inherit one regular class and one abstract class.
