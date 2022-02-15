@@ -1,7 +1,6 @@
 package hw10Q2UseOfSuperInChildClass;
 
-//Now, Daughter extends Father (super class). Use super method, super keyword and show all of their use in child class. and initialize in a TestFamily Class. Paste GitHub link below.
-public class Daughter extends Father{
+public class Daughter extends Father {
 	public String birthMonth;
 	public int age;
 

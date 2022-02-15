@@ -1,25 +1,25 @@
 package hw9Q2Encapsulation;
 
 public class Employee {
-	private String empName;
-	private int empAge;
+	private String Name;
+	private int Age;
 	private char sex;
 	private boolean usCitizen;
 
 	public String getEmpName() {
-		return empName;
+		return Name;
 	}
 
-	public void setEmpName(String empName) {
-		this.empName = empName;
+	public void setEmpName(String Name) {
+		this.Name = Name;
 	}
 
 	public int getEmpAge() {
-		return empAge;
+		return Age;
 	}
 
-	public void setEmpAge(int empAge) {
-		this.empAge = empAge;
+	public void setEmpAge(int Age) {
+		this.Age = Age;
 	}
 
 	public char getSex() {
