@@ -18,6 +18,8 @@ public class AnimalTest {
 		reptile.reptileInfo();
 		reptile.animalInfo();
 
+		// here birds is child class and animal is parent class.
+		// here birds extends animal so it is single inheritance.
 		System.out.println("\n........................\n");
 		Birds birds = new Birds();
 		birds.birdsInfo();
@@ -41,6 +43,7 @@ public class AnimalTest {
 		robin.birdsInfo();
 		robin.animalInfo();
 
+		// bulldog is child class and dog is parent class.
 		System.out.println("\n........................\n");
 		BullDog bullDog = new BullDog();
 		bullDog.bullDogInfo();
