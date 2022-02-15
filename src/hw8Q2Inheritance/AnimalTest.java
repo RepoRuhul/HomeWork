@@ -20,6 +20,8 @@ public class AnimalTest {
 
 		// here birds is child class and animal is parent class.
 		// here birds extends animal so it is single inheritance.
+		// mammal extends Animal, reptile extends Animal, Bird extends Animal so
+		// Hierarchical inheritance happened in this page.
 		System.out.println("\n........................\n");
 		Birds birds = new Birds();
 		birds.birdsInfo();
@@ -44,6 +46,8 @@ public class AnimalTest {
 		robin.animalInfo();
 
 		// bulldog is child class and dog is parent class.
+		// here bulldog extends dog, dog extend mammal, mammal extends animal,
+		// multilevel inheritance happened here.
 		System.out.println("\n........................\n");
 		BullDog bullDog = new BullDog();
 		bullDog.bullDogInfo();
