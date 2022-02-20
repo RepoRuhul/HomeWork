@@ -6,8 +6,6 @@ public class Daughter extends Father {
 
 	public Daughter() {
 		super();
-//		super.father();
-//		super.fatherInfo("Ruhul", 40, 'M', false);
 		super.familyName = "Rana";
 		System.out.println("My FamilyName is: " + familyName);
 

@@ -5,15 +5,14 @@ public class Father {
 	public int age;
 	public char sex;
 	public boolean usCitizen;
-	// We created this variables to use in child class to call by super keyword
 	public String familyName;
 
 	public Father() {
-		System.out.println("this is a default constructor from father class.");
+		System.out.println("This is a default constructor from father class.");
 	}
 
 	public Father(String name, int age, char sex, boolean usCitizen) {
-//		super();
+		super();
 		this.name = name;
 		this.age = age;
 		this.sex = sex;
@@ -26,7 +25,6 @@ public class Father {
 	}
 
 	public void fatherInfo(String name, int age, char sex, boolean usCitizen) {
-//		super();
 		this.name = name;
 		this.age = age;
 		this.sex = sex;
