@@ -20,55 +20,55 @@ public class ColumbiaUniversity extends MedicalSchool implements University, Voc
 
 	@Override
 	public void lawInfo() {
-		System.out.println("This lawInfo method is come from lawSchool.");
+		System.out.println("This lawInfo method is come from InterFace lawSchool class.");
 
 	}
 
 	@Override
 	public void anatomyLab() {
-		System.out.println("This anatomyLab method is come from MedicalSchool class.");
+		System.out.println("This anatomyLab method is come from Abstract MedicalSchool class.");
 
 	}
 
 	@Override
 	public void hygiene() {
-		System.out.println("This hygiene method is came from NursingSchool class.");
+		System.out.println("This hygiene method is came from Abstract NursingSchool class.");
 
 	}
 
 	@Override
 	public void commonRoom() {
-		System.out.println("This commonRoom method is come from Collage class.");
+		System.out.println("This commonRoom method is come from InterFace Collage class.");
 
 	}
 
 	@Override
 	public void laboratory() {
-		System.out.println("This laboratory method is come from Collage class.");
+		System.out.println("This laboratory method is come from InterFace Collage class.");
 
 	}
 
 	@Override
 	public void languageClub() {
-		System.out.println("This languageClub method is come from Collage class.");
+		System.out.println("This languageClub method is come from InterFace Collage class.");
 
 	}
 
 	@Override
 	public void emergencyRoom() {
-		System.out.println("This emergencyRoom method is come from Hospital class.");
+		System.out.println("This emergencyRoom method is come from Interface Hospital class.");
 
 	}
 
 	@Override
 	public void surgeryRoom() {
-		System.out.println("This surgeryRoom method is come from Hospotal class.");
+		System.out.println("This surgeryRoom method is come from Interface Hospotal class.");
 
 	}
 
 	@Override
 	public void cafeteria() {
-		System.out.println("This cafeteria method is come from Hospital class.");
+		System.out.println("This cafeteria method is come from Interface Hospital class.");
 
 	}
 
@@ -96,6 +96,6 @@ public class ColumbiaUniversity extends MedicalSchool implements University, Voc
 	}
 
 	public static void columbiaUniversity() {
-		System.out.println("This columbiaUniversity method is come from columbiaUniversity class.");
+		System.out.println("This columbiaUniversity method is come from columbiaUniversity Regular class.");
 	}
 }
