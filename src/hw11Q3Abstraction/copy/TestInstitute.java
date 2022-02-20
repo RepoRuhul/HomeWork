@@ -8,7 +8,7 @@ public class TestInstitute {
 		cu.biology();
 		cu.cafeteria();
 		cu.classSize();
-		cu.ColumbiaUniversity();
+		ColumbiaUniversity.columbiaUniversity();
 		cu.commonRoom();
 		cu.emergencyRoom();
 		cu.hygiene();

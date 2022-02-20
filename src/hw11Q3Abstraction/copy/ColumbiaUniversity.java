@@ -20,7 +20,7 @@ public class ColumbiaUniversity extends MedicalSchool implements University, Voc
 
 	@Override
 	public void lawInfo() {
-		System.out.println("This lawInfo method is from lawSchool.");
+		System.out.println("This lawInfo method is come from lawSchool.");
 
 	}
 
