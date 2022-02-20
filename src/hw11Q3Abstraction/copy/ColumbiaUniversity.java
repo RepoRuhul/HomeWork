@@ -12,7 +12,7 @@ public class ColumbiaUniversity extends MedicalSchool implements University, Voc
 	// public abstract void chemistry();
 	// Inside the regular class abstract method(line 12) doesn't allowed.
 	public void biology() {
-		System.out.println("This defualt metod is come from ColumbiaUniversity class: ");
+		System.out.println("This defualt method is come from ColumbiaUniversity Regular class.\n");
 	}
 
 	public ColumbiaUniversity() {
@@ -20,82 +20,82 @@ public class ColumbiaUniversity extends MedicalSchool implements University, Voc
 
 	@Override
 	public void lawInfo() {
-		System.out.println("This lawInfo method is come from InterFace lawSchool class.");
+		System.out.println("This lawInfo method is come from  lawSchool InterFace class.\n");
 
 	}
 
 	@Override
 	public void anatomyLab() {
-		System.out.println("This anatomyLab method is come from Abstract MedicalSchool class.");
+		System.out.println("This anatomyLab method is come from  MedicalSchool Abstract class.\n");
 
 	}
 
 	@Override
 	public void hygiene() {
-		System.out.println("This hygiene method is came from Abstract NursingSchool class.");
+		System.out.println("This hygiene method is came from  NursingSchool Abstract class.\n");
 
 	}
 
 	@Override
 	public void commonRoom() {
-		System.out.println("This commonRoom method is come from InterFace Collage class.");
+		System.out.println("This commonRoom method is come from Collage InterFace class.\n");
 
 	}
 
 	@Override
 	public void laboratory() {
-		System.out.println("This laboratory method is come from InterFace Collage class.");
+		System.out.println("This laboratory method is come from  Collage InterFace class.\n");
 
 	}
 
 	@Override
 	public void languageClub() {
-		System.out.println("This languageClub method is come from InterFace Collage class.");
+		System.out.println("This languageClub method is come from  Collage InterFace class.\n");
 
 	}
 
 	@Override
 	public void emergencyRoom() {
-		System.out.println("This emergencyRoom method is come from Interface Hospital class.");
+		System.out.println("This emergencyRoom method is come from  Hospital Interface class.\n");
 
 	}
 
 	@Override
 	public void surgeryRoom() {
-		System.out.println("This surgeryRoom method is come from Interface Hospotal class.");
+		System.out.println("This surgeryRoom method is come from  Hospotal Interface class.\n");
 
 	}
 
 	@Override
 	public void cafeteria() {
-		System.out.println("This cafeteria method is come from Interface Hospital class.");
+		System.out.println("This cafeteria method is come from Hospital Interface class.\n");
 
 	}
 
 	@Override
 	public void vocationalInfo() {
-		System.out.println("This vocationalInfo method is come from VocationalSchool Interface class.");
+		System.out.println("This vocationalInfo method is come from VocationalSchool Interface class.\n");
 
 	}
 
 	@Override
 	public void classSize() {
-		System.out.println("This classSize method is come from University Interface class.");
+		System.out.println("This classSize method is come from University Interface class.\n");
 
 	}
 
 	@Override
-	public void playgoiund() {
-		System.out.println("This playgoiund method is come from University Interface class.");
+	public void playground() {
+		System.out.println("This playgoiund method is come from University Interface class.\n");
 
 	}
 
 	@Override
 	public void teacher() {
-		System.out.println("This teacher method is come from University Interface class.");
+		System.out.println("This teacher method is come from University Interface class.\n");
 	}
 
 	public static void columbiaUniversity() {
-		System.out.println("This columbiaUniversity method is come from columbiaUniversity Regular class.");
+		System.out.println("This columbiaUniversity method is come from columbiaUniversity Regular class.\n");
 	}
 }

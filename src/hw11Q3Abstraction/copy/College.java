@@ -9,10 +9,10 @@ public interface College {
 	public void languageClub();
 
 	public default void dorm() {
-		System.out.println("This dorm  method is come from collage interface.");
+		System.out.println("This default  method is come from collage interface class.");
 	}
 
 	public static void studyRoom() {
-		System.out.println("This studyRoom is come from collage interface.");
+		System.out.println("This studyRoom static method is come from collage interface class .");
 	}
 }

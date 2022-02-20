@@ -15,7 +15,7 @@ public class TestInstitute {
 		cu.laboratory();
 		cu.languageClub();
 		cu.lawInfo();
-		cu.playgoiund();
+		cu.playground();
 		cu.surgeryRoom();
 		cu.teacher();
 		cu.vocationalInfo();
@@ -23,7 +23,7 @@ public class TestInstitute {
 		University uv = new ColumbiaUniversity();
 		uv.classSize();
 		uv.gymnasium();
-		uv.playgoiund();
+		uv.playground();
 		uv.teacher();
 
 		MedicalSchool ms = new ColumbiaUniversity();

@@ -9,7 +9,7 @@ package hw11Q3Abstraction.copy;
 public interface University extends College, Hospital {
 	public void classSize();
 
-	public abstract void playgoiund();
+	public abstract void playground();
 
 	public void teacher();
 
@@ -17,10 +17,10 @@ public interface University extends College, Hospital {
 	// public void University() {}
 
 	public default void gymnasium() {
-		System.out.println("This gymnasium default methos is come from university interface.");
+		System.out.println("This gymnasium default method is come from university interface class.\n");
 	}
 
 	public static void library() {
-		System.out.println("This static library method is come from university interface.");
+		System.out.println("This static library method is come from university interface class.");
 	}
 }
