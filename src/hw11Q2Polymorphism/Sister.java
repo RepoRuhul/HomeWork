@@ -14,31 +14,31 @@ public class Sister {
 	public int sister(int age1, int age2, int age3) {
 		int total2 = age1 + age2 + age3 + 84;
 		System.out.println("Total area of total2 is: " + total2);
-		return 2;
+		return total2;
 	}
 
 	public int sister(int age1, int age2, int age3, String age4) {
 		int total3 = age1 + age2 + age3 + Integer.parseInt(age4);
 		System.out.println("Total area of total3 is: " + total3);
-		return 3;
+		return total3;
 	}
 
 	public int sister(int age3, String age4, int age5, int age6) {
 		int total4 = age3 + Integer.parseInt(age4) + age5 + age6;
 		System.out.println("Total area of total4 is: " + total4);
-		return 4;
+		return total4;
 	}
 
 	public static int sister(int age1, int age2, int age3, int age5, int age6) {
 		int total5 = age1 + age2 + age3 + age5 + age6;
 		System.out.println("Total area of total5 is: " + total5);
-		return 5;
+		return total5;
 	}
 
 	public final int sister(int age1, int age2, int age3, int age5) {
 		int total6 = age1 + age2 + age3 + age5;
 		System.out.println("Total area of total6 is: " + total6);
-		return 6;
+		return total6;
 	}
 
 	/*

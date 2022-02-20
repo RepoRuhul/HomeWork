@@ -16,21 +16,21 @@ public class Niece extends Sister {
 	public int sister(int age1, int age2, int age3) {
 		int total8 = age1 + age2 + age3 + 10;
 		System.out.println("Total area of total8 is: " + total8);
-		return 8;
+		return total8;
 	}
 
 	@Override
 	public int sister(int age1, int age2, int age3, String age4) {
 		int total9 = age1 + age2 + age3 + Integer.parseInt(age4) - 100;
 		System.out.println("Total area of total9 is: " + total9);
-		return 9;
+		return total9;
 	}
 
 	@Override
 	public int sister(int age3, String age4, int age5, int age6) {
 		int total10 = age3 + Integer.parseInt(age4) + age5 + age6 - 100;
 		System.out.println("Total area of total10 is: " + total10);
-		return 10;
+		return total10;
 	}
 
 	/*
@@ -39,12 +39,12 @@ public class Niece extends Sister {
 
 	/*
 	 * static int sister(int age1, int age2, int age3, int age5, int age6 ){ int
-	 * total5= age1 + age2 + age3 + age5 + age6;
-	 * System.out.println("Total  area from sister: " + total5); return 5; }
+	 * total11= age1 + age2 + age3 + age5 + age6;
+	 * System.out.println("Total  area from total11: " + total11); return total11; }
 	 * 
-	 * public final int sister(int age1, int age2, int age3, int age5) { int total6
-	 * = age1 +age2 +age3 + age5; System.out.println("total area from sister: "
-	 * +total6); return 6; }
+	 * public final int sister(int age1, int age2, int age3, int age5) { int total12
+	 * = age1 +age2 +age3 + age5; System.out.println("total area from s: " +total6);
+	 * return total12; }
 	 */
 
 	/*
