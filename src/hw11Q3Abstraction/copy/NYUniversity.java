@@ -3,6 +3,6 @@ package hw11Q3Abstraction.copy;
 public class NYUniversity {
 
 	public void anthropology() {
-		System.out.println("This is non abstract method or implemented method in regular class.");
+		System.out.println("This is anthropology method or void type method is come from NYUniversity class.");
 	}
 }

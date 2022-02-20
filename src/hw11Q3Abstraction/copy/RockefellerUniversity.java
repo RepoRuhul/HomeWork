@@ -8,13 +8,13 @@ public class RockefellerUniversity extends EngineeringSchool implements Aeronaut
 
 	@Override
 	public void aeronauticalInfo() {
-		// TODO Auto-generated method stub
-		
+		System.err.println("This aeronauticalInfo methos is come from AeronauticalSchool abstract class.");
+
 	}
 
 	@Override
 	public void mechanicalLab() {
-		// TODO Auto-generated method stub
-		
+		System.out.println("This mechanicalLab method is come from EngineeringSchool Abstract class.");
+
 	}
 }

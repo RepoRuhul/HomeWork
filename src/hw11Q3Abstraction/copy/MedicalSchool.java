@@ -7,18 +7,17 @@ package hw11Q3Abstraction.copy;
 //Abstract class can inherit interface by implements key word.
 //Abstract class can't inherit the abstract class more than one.
 //abstract class can't inherit the regular class by implement keyword.
-
+//Abstract class can inherit one or more than one interface by implements key word.
 public abstract class MedicalSchool extends NursingSchool implements LawSchool {
 	public abstract void anatomyLab();
 
 	public void biochemistryLab() {
-		System.out.println("the biochemistryLab is from medical school. ");
+		System.out.println("This biochemistryLab is come from MedicalSchool. ");
 	}
 
 	public MedicalSchool() {
 	}
-	public static void medicalSchool() { 
-		
+
+	public static void medicalSchool() {
 	}
-    
 }

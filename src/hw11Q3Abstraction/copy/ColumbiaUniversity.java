@@ -12,92 +12,90 @@ public class ColumbiaUniversity extends MedicalSchool implements University, Voc
 	// public abstract void chemistry();
 	// Inside the regular class abstract method(line 12) doesn't allowed.
 	public void biology() {
-		System.out.println("This result come from ColumbiaUniversity class : ");
+		System.out.println("This defualt metod is come from ColumbiaUniversity class: ");
 	}
 
-	public void ColumbiaUniversity() {
+	public ColumbiaUniversity() {
 	}
 
 	@Override
 	public void lawInfo() {
-		System.out.println("This class is from lawSchool: ");
-		
+		System.out.println("This lawInfo method is from lawSchool.");
+
 	}
 
 	@Override
 	public void anatomyLab() {
-		System.out.println("This anatomyLab is from ColumbiaUniversity class : ");
-		
+		System.out.println("This anatomyLab method is come from MedicalSchool class.");
+
 	}
 
 	@Override
 	public void hygiene() {
-		// TODO Auto-generated method stub
-		
+		System.out.println("This hygiene method is came from NursingSchool class.");
+
 	}
 
 	@Override
 	public void commonRoom() {
-		// TODO Auto-generated method stub
-		
+		System.out.println("This commonRoom method is come from Collage class.");
+
 	}
 
 	@Override
 	public void laboratory() {
-		// TODO Auto-generated method stub
-		
+		System.out.println("This laboratory method is come from Collage class.");
+
 	}
 
 	@Override
 	public void languageClub() {
-		// TODO Auto-generated method stub
-		
+		System.out.println("This languageClub method is come from Collage class.");
+
 	}
 
 	@Override
 	public void emergencyRoom() {
-		// TODO Auto-generated method stub
-		
+		System.out.println("This emergencyRoom method is come from Hospital class.");
+
 	}
 
 	@Override
 	public void surgeryRoom() {
-		// TODO Auto-generated method stub
-		
+		System.out.println("This surgeryRoom method is come from Hospotal class.");
+
 	}
 
 	@Override
 	public void cafeteria() {
-		// TODO Auto-generated method stub
-		
+		System.out.println("This cafeteria method is come from Hospital class.");
+
 	}
 
 	@Override
 	public void vocationalInfo() {
-		// TODO Auto-generated method stub
-		
+		System.out.println("This vocationalInfo method is come from VocationalSchool Interface class.");
+
 	}
 
 	@Override
 	public void classSize() {
-		// TODO Auto-generated method stub
-		
+		System.out.println("This classSize method is come from University Interface class.");
+
 	}
 
 	@Override
 	public void playgoiund() {
-		// TODO Auto-generated method stub
-		
+		System.out.println("This playgoiund method is come from University Interface class.");
+
 	}
 
 	@Override
 	public void teacher() {
-		// TODO Auto-generated method stub
-		
-	}
-	public static void columbiaUniversity() {
-		System.out.println("This static method is from columbiaUniversity: ");
+		System.out.println("This teacher method is come from University Interface class.");
 	}
 
-	
+	public static void columbiaUniversity() {
+		System.out.println("This columbiaUniversity method is come from columbiaUniversity class.");
+	}
 }
